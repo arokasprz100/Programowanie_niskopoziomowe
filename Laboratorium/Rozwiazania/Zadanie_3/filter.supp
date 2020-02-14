@@ -1,0 +1,13 @@
+{
+   Sup_1
+   Memcheck:Cond
+   fun:_ZN10ErrorMaker10makeError1Ev
+   fun:main
+}
+{
+   Sup_2
+   Memcheck:Free
+   fun:_ZdlPv
+   fun:_ZN10ErrorMaker10makeError2Ev
+   fun:main
+}
